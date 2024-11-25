@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+
+*{
+  @apply p-0 m-0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-black;
+}
+
+.dark body {
+  @apply bg-gray-800 text-white;
+}

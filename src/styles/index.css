@@ -1,0 +1,21 @@
+ 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-black;
+}
+
+.dark body {
+  @apply bg-gray-800 text-white;
+}
+
+#li-header>li>a{
+    @apply hover:text-white hover:bg-black text-black px-4 py-3;
+}
